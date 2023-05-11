@@ -320,6 +320,7 @@ class FixedExtentMetrics extends FixedScrollMetrics {
           pixels: pixels,
           viewportDimension: viewportDimension,
           axisDirection: axisDirection,
+          devicePixelRatio: 1,
         );
 
   @override
@@ -329,6 +330,7 @@ class FixedExtentMetrics extends FixedScrollMetrics {
     double? pixels,
     double? viewportDimension,
     AxisDirection? axisDirection,
+    double? devicePixelRatio,
     int? itemIndex,
   }) {
     return FixedExtentMetrics(
@@ -409,6 +411,7 @@ class _FixedExtentScrollPosition extends ScrollPositionWithSingleContext
     double? pixels,
     double? viewportDimension,
     AxisDirection? axisDirection,
+    double? devicePixelRatio,
     int? itemIndex,
   }) {
     return FixedExtentMetrics(
