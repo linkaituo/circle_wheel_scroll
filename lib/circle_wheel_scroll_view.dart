@@ -320,6 +320,7 @@ class FixedExtentMetrics extends FixedScrollMetrics {
           pixels: pixels,
           viewportDimension: viewportDimension,
           axisDirection: axisDirection,
+          devicePixelRatio: 1,
         );
 
   @override
